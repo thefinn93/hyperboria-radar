@@ -28,3 +28,16 @@ These RSS feeds get announced:
 * [Grundy's Fun Blog](http://grundy.hypebox.net)
 * [My blog](http://hyperboria.thefinn93.com)
 * [Gitboria's socialnode](http://socialno.de/gitboria)
+
+Subreddits
+======
+* [/r/darknetplan](http://www.reddit.com/r/darknetplan)
+* [/r/dorknet](http://www.reddit.com/r/dorknet)
+* [/r/cjdns](http://www.reddit.com/r/cjdns)
+* [/r/hyperboria](http://www.reddit.com/r/hyperboria)
+* [/r/darknetplanHW](http://www.reddit.com/r/darknetplanHW)
+* [/r/hocnet](http://www.reddit.com/r/hocnet)
+
+Uppit
+=====
+* [/r/all](http://uppit.us/r/all) - a psudo-subreddit that all posts get listed on
