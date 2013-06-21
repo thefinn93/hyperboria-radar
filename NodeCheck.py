@@ -15,15 +15,17 @@ nodefile = "/home/finn/supybot/data/known_nodes.json"
 
 twitter_name = "thefinn93"
 
-auth = tweepy.OAuthHandler("xxxxxxxxxxxx", "xxxxxxxxxxxxxxxxxxx")
-auth.set_access_token("xxxxxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxx")
+auth = tweepy.OAuthHandler("xxx", "xxx")
+auth.set_access_token("xxx", "xxx")
 api = tweepy.API(auth)
 
+socialnodeauth=("nodebot","xxx")
 
 from cjdnsadmin import connectWithAdminInfo
 try:
     cjdns = connectWithAdminInfo()
-except:
+except Exception as e:
+    # requests.get("https://www.thefinn93.com/push/send?" + urllib.urlencode({"token":"ExT2G6xP9RlireefbIIt","title":"NodeCheck.py on Mal", "message": str(e)}))
     sys.exit(1)
 
 try:
@@ -52,7 +54,9 @@ while more:
         if not node['ip'] in knownnodes:
             announceme.append(node['ip'])
             count += 1
-            api.update_status("New Hyperboria Node detected! Welcome, %s!" % node['ip'])
+            newstatus = "New Hyperboria Node detected! Welcome, %s!" %node['ip']
+            requests.post("http://socialno.de/api/statuses/update.json", data={"status": newstatus}, auth=socialnodeauth)
+            api.update_status(newstatus)
 #            t.direct_message.new(user="thefinn93", text="I works")
         knownnodes[node['ip']] = time.time()
     i = i + 1
