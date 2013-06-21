@@ -7,7 +7,7 @@ related to Hyperboria. It follows some RSS feeds, some git repos, every post on
 Git Repos
 =======
 
-The following git repos are announced. Please help me expand this!
+The following git repos are announced. Please help me expand this! More info on how to do that at the bottom
 
 * [ProjectMeshnet/nodeatlas](https://github.com/ProjectMeshnet/nodeatlas)
 * [SeattleMeshnet/seattlemesh.net](https://github.com/seattlemeshnet/seattlemesh.net)
@@ -41,3 +41,18 @@ Subreddits
 Uppit
 =====
 * [/r/all](http://uppit.us/r/all) - a psudo-subreddit that all posts get listed on
+
+
+Adding your repo
+----------------
+To add your repo, first go to your repo on github, click settings->service hooks.
+Select *WebHook URLs*, and add the following URL:
+
+`http://www.thefinn93.com:8080/github/`
+
+Then hit save. Next bug me. Easiest way is proly to submit a pull request to this
+file up top where the repos are listed. I'll accept pretty much anything related
+to hyperboria, so if you're unsure just ask anyway.
+
+I'm working on Gitboria support. If you don't use either gitlab or gitboria say so in
+the pull request and I'll set it up.
