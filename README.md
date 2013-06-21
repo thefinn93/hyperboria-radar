@@ -11,6 +11,11 @@ The following git repos are announced. Please help me expand this! More info on 
 
 * [ProjectMeshnet/nodeatlas](https://github.com/ProjectMeshnet/nodeatlas)
 * [SeattleMeshnet/seattlemesh.net](https://github.com/seattlemeshnet/seattlemesh.net)
+* [thefinn93/cjdns-php-gui](https://github.com/thefinn93/cjdns-php-gui)
+* [thefinn93/cjdns-vagrant](https://github.com/thefinn93/cjdns-vagrant)
+* [thefinn93/ipvfoo](https://github.com/thefinn93/ipvfoo)
+* [thefinn93/cjdnsmap](https://github.com/thefinn93/cjdnsmap)
+
 
 RSS Feeds
 ======
