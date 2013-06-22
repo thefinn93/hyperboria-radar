@@ -15,7 +15,7 @@ The following git repos are announced. Please help me expand this! More info on 
 * [thefinn93/cjdns-vagrant](https://github.com/thefinn93/cjdns-vagrant)
 * [thefinn93/ipvfoo](https://github.com/thefinn93/ipvfoo)
 * [thefinn93/cjdnsmap](https://github.com/thefinn93/cjdnsmap)
-
+* [noway421/cjdmaid](https://github.com/noway421/cjdmaid)
 
 RSS Feeds
 ======
