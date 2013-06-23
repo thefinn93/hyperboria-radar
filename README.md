@@ -16,12 +16,12 @@ The following git repos are announced. Please help me expand this! More info on 
 * [thefinn93/ipvfoo](https://github.com/thefinn93/ipvfoo)
 * [thefinn93/cjdnsmap](https://github.com/thefinn93/cjdnsmap)
 * [noway421/cjdmaid](https://github.com/noway421/cjdmaid)
+* [inhies/cjdcmd](https://github.com/inhies/cjdcmd
 
 Git Repos I'd Like
 -----
 The owners of thses haven't set up webhooks yet, but I'd like them too (instructions at the bottom):
 
-* [inhies/cjdcmd](https://github.com/inhies/cjdcmd)
 * [cjdelisle/cjdns](https://github.com/cjdelisle/cjdns)
 * [campadrenalin/ConcurrenTree](https://github.com/campadrenalin/ConcurrenTree)
 * [campadrenalin/EJTP-lib-python](https://github.com/campadrenalin/EJTP-lib-python)
