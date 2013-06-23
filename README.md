@@ -17,6 +17,7 @@ The following git repos are announced. Please help me expand this! More info on 
 * [thefinn93/cjdnsmap](https://github.com/thefinn93/cjdnsmap)
 * [noway421/cjdmaid](https://github.com/noway421/cjdmaid)
 * [inhies/cjdcmd](https://github.com/inhies/cjdcmd)
+* [ProjectMeshnet/hyperboria-subreddit](https://github.com/ProjectMeshnet/hyperboria-subreddit)
 
 Git Repos I'd Like
 -----
