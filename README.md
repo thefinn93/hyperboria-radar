@@ -16,7 +16,7 @@ The following git repos are announced. Please help me expand this! More info on 
 * [thefinn93/ipvfoo](https://github.com/thefinn93/ipvfoo)
 * [thefinn93/cjdnsmap](https://github.com/thefinn93/cjdnsmap)
 * [noway421/cjdmaid](https://github.com/noway421/cjdmaid)
-* [inhies/cjdcmd](https://github.com/inhies/cjdcmd
+* [inhies/cjdcmd](https://github.com/inhies/cjdcmd)
 
 Git Repos I'd Like
 -----
