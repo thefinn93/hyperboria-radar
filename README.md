@@ -14,14 +14,19 @@ The following git repos are announced. Please help me expand this! More info on 
 * [noway421/cjdmaid](https://github.com/noway421/cjdmaid)
 * [inhies/cjdcmd](https://github.com/inhies/cjdcmd)
 * [ProjectMeshnet/hyperboria-subreddit](https://github.com/ProjectMeshnet/hyperboria-subreddit)
+* [campadrenalin/pymads](https://github.com/campadrenalin/pymads)
+* [campadrenalin/ConcurrenTree](https://github.com/campadrenalin/ConcurrenTree)
+* [campadrenalin/EJTP-lib-python](https://github.com/campadrenalin/EJTP-lib-python)
+* [campadrenalin/python-djdns](https://github.com/campadrenalin/python-djdns)
+* [campadrenalin/python-libdeje](https://github.com/campadrenalin/python-libdeje)
+* [campadrenalin/djdns-hype-flat](https://github.com/campadrenalin/djdns-hype-flat)
 
 Git Repos I'd Like
+
 -----
 The owners of thses haven't set up webhooks yet, but I'd like them too (instructions at the bottom):
 
 * [cjdelisle/cjdns](https://github.com/cjdelisle/cjdns)
-* [campadrenalin/ConcurrenTree](https://github.com/campadrenalin/ConcurrenTree)
-* [campadrenalin/EJTP-lib-python](https://github.com/campadrenalin/EJTP-lib-python)
 
 RSS Feeds
 ======
