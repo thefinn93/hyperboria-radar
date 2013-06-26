@@ -44,6 +44,7 @@ These RSS feeds get announced:
 * [Grundy's Fun Blog](http://grundy.hypebox.net)
 * [My blog](http://hyperboria.thefinn93.com)
 * [Gitboria's socialnode](http://socialno.de/gitboria)
+* [The public Gitboria feed](http://gitboria.com/dashboard)
 
 Subreddits
 ======
