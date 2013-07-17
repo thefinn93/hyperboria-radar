@@ -21,6 +21,7 @@ The following git repos are announced. Please help me expand this! More info on 
 * [campadrenalin/python-libdeje](https://github.com/campadrenalin/python-libdeje)
 * [campadrenalin/djdns-hype-flat](https://github.com/campadrenalin/djdns-hype-flat)
 * [lukevers/kittens](https://github.com/lukevers/kittens)
+* [dansup/hyperboria.net](https://github.com/dansup/hyperboria.net)
 
 Git Repos I'd Like
 
