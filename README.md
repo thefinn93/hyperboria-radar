@@ -47,6 +47,7 @@ These RSS feeds get announced:
 * [My blog](http://hyperboria.thefinn93.com)
 * [Gitboria's socialnode](http://socialno.de/gitboria)
 * [The public Gitboria feed](http://gitboria.com/dashboard)
+* [Volt's Hyperlib](http://[fc7b:ce4a:f655:f634:792b:5924:29c4:60fa]/)
 
 Subreddits
 ======
