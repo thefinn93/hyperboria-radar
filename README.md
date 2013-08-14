@@ -48,6 +48,10 @@ These RSS feeds get announced:
 * [Gitboria's socialnode](http://socialno.de/gitboria)
 * [The public Gitboria feed](http://gitboria.com/dashboard)
 * [Volt's Hyperlib](http://[fc7b:ce4a:f655:f634:792b:5924:29c4:60fa]/)
+* [Luke's Blog](https://blog.lukevers.com)
+* [Sasha's Blog](http://speedfulpanic.net)
+* [Dansup's Blog](http://dansup.hypebox.net)
+* [Appnode Blog](http://appno.de/blog)
 
 Subreddits
 ======
