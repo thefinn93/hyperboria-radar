@@ -6,6 +6,8 @@ Git Repos
 The following git repos are announced. Please help me expand this! More info on how to do that at the bottom
 
 * [ProjectMeshnet/nodeatlas](https://github.com/ProjectMeshnet/nodeatlas)
+* [ProjectMeshnet/hyperboria-subreddit](https://github.com/ProjectMeshnet/hyperboria-subreddit)
+* [ProjectMeshnet/cjdns.info](https://github.com/ProjectMeshnet/cjdns.info)
 * [SeattleMeshnet/seattlemesh.net](https://github.com/seattlemeshnet/seattlemesh.net)
 * [thefinn93/cjdns-php-gui](https://github.com/thefinn93/cjdns-php-gui)
 * [thefinn93/cjdns-vagrant](https://github.com/thefinn93/cjdns-vagrant)
@@ -13,7 +15,6 @@ The following git repos are announced. Please help me expand this! More info on 
 * [thefinn93/cjdnsmap](https://github.com/thefinn93/cjdnsmap)
 * [noway421/cjdmaid](https://github.com/noway421/cjdmaid)
 * [inhies/cjdcmd](https://github.com/inhies/cjdcmd)
-* [ProjectMeshnet/hyperboria-subreddit](https://github.com/ProjectMeshnet/hyperboria-subreddit)
 * [campadrenalin/pymads](https://github.com/campadrenalin/pymads)
 * [campadrenalin/ConcurrenTree](https://github.com/campadrenalin/ConcurrenTree)
 * [campadrenalin/EJTP-lib-python](https://github.com/campadrenalin/EJTP-lib-python)
