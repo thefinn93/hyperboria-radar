@@ -38,9 +38,9 @@ for lastseen in knownnodes:
         count += 1
 
 try:
-	announceme = json.load(open("/tmp/unannounced_nodes.json"))
+    announceme = json.load(open("/tmp/unannounced_nodes.json"))
 except IOError, ValueError:
-	announceme = []
+    announceme = []
 
 while more:
     dump = cjdns.NodeStore_dumpTable(i)

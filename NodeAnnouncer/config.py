@@ -29,8 +29,8 @@
 ###
 
 import supybot.conf as conf
-import supybot.registry as registry
-from supybot.i18n import PluginInternationalization, internationalizeDocstring
+# import supybot.registry as registry
+# from supybot.i18n import PluginInternationalization, internationalizeDocstring
 
 _ = PluginInternationalization('NodeAnnouncer')
 
@@ -39,7 +39,7 @@ def configure(advanced):
     # a bool that specifies whether the user identified himself as an advanced
     # user or not.  You should effect your configuration by manipulating the
     # registry as appropriate.
-    from supybot.questions import expect, anything, something, yn
+    from supybot.questions import expect, yn
     conf.registerPlugin('NodeAnnouncer', True)
 
 
