@@ -1,12 +1,8 @@
 #! /usr/bin/env python
-import ConfigParser
 import sys
 import json
 import time
-import subprocess
-import socket
 import requests
-import urllib
 import tweepy
 
 sys.path.append("/opt/cjdns/contrib/python/")
@@ -25,12 +21,12 @@ from cjdnsadmin import connectWithAdminInfo
 try:
     cjdns = connectWithAdminInfo()
 except Exception as e:
-    # requests.get("https://www.thefinn93.com/push/send?" + urllib.urlencode({"token":"ExT2G6xP9RlireefbIIt","title":"NodeCheck.py on Mal", "message": str(e)}))
+    print("Failed to import cjdns")
     sys.exit(1)
 
 try:
     knownnodes = json.load(open(nodefile))
-except:
+except IOError, ValueError:
     sys.exit()
 
 more = True
@@ -41,10 +37,9 @@ for lastseen in knownnodes:
     if knownnodes[lastseen] > time.time()-604800:
         count += 1
 
-#print  str(count) + " nodes seen this week"
 try:
 	announceme = json.load(open("/tmp/unannounced_nodes.json"))
-except:
+except IOError, ValueError:
 	announceme = []
 
 while more:
