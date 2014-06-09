@@ -28,13 +28,13 @@
 
 ###
 
-import supybot.utils as utils
+# import supybot.utils as utils
 from supybot.commands import *
-import supybot.plugins as plugins
-import supybot.ircutils as ircutils
+# import supybot.plugins as plugins
+# import supybot.ircutils as ircutils
 import supybot.callbacks as callbacks
 from supybot.i18n import PluginInternationalization, internationalizeDocstring
-import time
+# import time
 import supybot.ircmsgs as ircmsgs
 import supybot.schedule as schedule
 import json
@@ -43,9 +43,9 @@ _ = PluginInternationalization('NodeAnnouncer')
 
 @internationalizeDocstring
 class NodeAnnouncer(callbacks.Plugin):
-    """Checks the JSON file every minute 
+    """Checks the JSON file every minute
     and announced new nodes in the specified channels"""
-    
+
     def __init__(self, irc):
         self.__parent = super(NodeAnnouncer, self)
         self.__parent.__init__(irc)
@@ -54,7 +54,7 @@ class NodeAnnouncer(callbacks.Plugin):
             schedule.removeEvent('hyperboriaNodeChecker')
         except KeyError:
             pass
-            
+
         def checkForNodes():
             self.checkNodes(irc)
         try:
@@ -63,9 +63,9 @@ class NodeAnnouncer(callbacks.Plugin):
             irc.queueMsg(ircmsgs.privmsg("#bollocks", 'Error: the node checker was already running!'))
         else:
             irc.queueMsg(ircmsgs.privmsg("#bollocks",'Node checker started!'))
-            
+
         self.irc = irc
-        
+
     def checkNodes(self, irc):
         if(self.debug):
             irc.queueMsg(ircmsgs.privmsg("#bollocks", "Checking for new nodes"))
@@ -93,10 +93,10 @@ class NodeAnnouncer(callbacks.Plugin):
         else:
             irc.reply('Node checker started!')
     start = wrap(start)
-    
+
     def debugMode(self, irc, msg, args):
         """takes no arguments
-        
+
         toggles debug mode either on or off"""
         if(self.debug):
             self.debug = False
@@ -120,4 +120,3 @@ class NodeAnnouncer(callbacks.Plugin):
     stop = wrap(stop)
 
 Class = NodeAnnouncer
- 
