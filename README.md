@@ -23,6 +23,7 @@ The following git repos are announced. Please help me expand this! More info on 
 * [campadrenalin/djdns-hype-flat](https://github.com/campadrenalin/djdns-hype-flat)
 * [lukevers/kittens](https://github.com/lukevers/kittens)
 * [dansup/hyperboria.net](https://github.com/dansup/hyperboria.net)
+* [kpcyrd/hype-apt](https://github.com/kpcyrd/hype-apt)
 
 Git Repos I'd Like
 
